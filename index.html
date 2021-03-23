@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Work 2</title>
+  </head>
+  <body>
+    <h1>Cписок покупок:</h1>
+    <form action="form.php">
+      <fieldset>
+        <legend>Фрукты</legend>
+        <ol>
+          <li>
+            <input
+              type="radio"
+              name="question"
+              id="question2_1"
+              value="Apple"
+            />
+            <label for="question2_1">Яблоки</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="question"
+              id="question2_2"
+              value="Banan"
+            />
+            <label for="question2_2">Бананы</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="question"
+              id="question2_3"
+              value="Orange"
+              disabled
+            />
+            <label for="question2_3">Апельсины</label>
+          </li>
+        </ol>
+      </fieldset>
+      <p></p>
+      <label>
+        <select size="5" multiple name="Desert">
+          <option value="Чебурашка">Творожный десерт</option>
+          <option selected value="Крокодил Гена">Шведский десерт</option>
+          <option value="Шапокляк">Миндальный десерт</option>
+          <option value="Крыса Лариса">Тонкие блины на молоке</option>
+        </select>
+      </label>
+      <p></p>
+      <fieldset>
+        <legend>Одежда</legend>
+        <label for="clothes_1">Джинсы</label
+        ><input
+          type="checkbox"
+          name="option2"
+          value="a2"
+          checked
+          id="clothes_1"
+        /><br />
+        <label for="clothes_2">Джемпер</label
+        ><input
+          type="checkbox"
+          name="option3"
+          value="a3"
+          id="clothes_2"
+        /><br />
+        <label for="clothes_3">Футболка</label
+        ><input type="checkbox" name="option4" value="a4" id="clothes_3" />
+        <br />
+        <label for="clothes_4">Шорты</label
+        ><input type="checkbox" name="option5" value="a5" id="clothes_4" />
+      </fieldset>
+      <p></p>
+      <label for="Coment">Коментарии</label>
+      <textarea
+        maxlength="30"
+        rows="1"
+        cols="10"
+        name="text"
+        id="Coment"
+      ></textarea>
+      <p></p>
+      <button type="submit">Отправить</button>
+    </form>
+
+    <a href="https://aleksandr-voron.github.io/Home_work2/text.html"
+      >Link text.html</a
+    >
+  </body>
+</html>
